@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C627E79928BA1545003DD6CC /* AddMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = C627E79828BA1545003DD6CC /* AddMoney.swift */; };
+		C627E79B28BA374B003DD6CC /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C627E79A28BA374B003DD6CC /* Rules.swift */; };
+		C638699928BB8C2E0087C251 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C638699828BB8C2E0087C251 /* background.mp3 */; };
+		C696075E28AF952200B9DE4B /* SoudEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C696075D28AF952200B9DE4B /* SoudEffect.swift */; };
+		C696076228AF970700B9DE4B /* vitory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C696076128AF970700B9DE4B /* vitory.mp3 */; };
+		C696076628AF9DD200B9DE4B /* shuffCardsCheck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C696076528AF9DD200B9DE4B /* shuffCardsCheck.mp3 */; };
+		C696076828AF9FCF00B9DE4B /* throwCards.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C696076728AF9FCE00B9DE4B /* throwCards.mp3 */; };
+		C697354028B8829A0036D533 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697353F28B8829A0036D533 /* MainView.swift */; };
+		C697354228B884010036D533 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697354128B884010036D533 /* Components.swift */; };
+		C697354628B8B2D90036D533 /* 87117-coin.json in Resources */ = {isa = PBXBuildFile; fileRef = C697354528B8B2D90036D533 /* 87117-coin.json */; };
+		C69854F128AE165900E76728 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C69854F028AE165900E76728 /* Lottie */; };
+		C69854F428AE169D00E76728 /* ResizeableLotteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69854F328AE169D00E76728 /* ResizeableLotteView.swift */; };
+		C699EB3828AE306D00C11BBA /* Party.json in Resources */ = {isa = PBXBuildFile; fileRef = C699EB3728AE306D00C11BBA /* Party.json */; };
+		C69B0DF828B5245C00FA7BE6 /* MoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B0DF728B5245C00FA7BE6 /* MoneyView.swift */; };
+		C6A2DD8528A364B00024E740 /* RuleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2DD8428A364AF0024E740 /* RuleModel.swift */; };
+		C6A2DD8728A365080024E740 /* CardsGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2DD8628A365080024E740 /* CardsGames.swift */; };
+		C6B6524028A26466005A1B7A /* TienLenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B6523F28A26466005A1B7A /* TienLenApp.swift */; };
+		C6B6524428A26469005A1B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B6524328A26469005A1B7A /* Assets.xcassets */; };
+		C6B6524728A26469005A1B7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B6524628A26469005A1B7A /* Preview Assets.xcassets */; };
+		C6CA111F28B268B80003833B /* Poker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CA111E28B268B80003833B /* Poker.swift */; };
+		C6CA112128B268D30003833B /* PokerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CA112028B268D30003833B /* PokerController.swift */; };
+		C6E8FD9D28BB232800D38693 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8FD9C28BB232800D38693 /* Achievement.swift */; };
+		C6E8FD9F28BB311200D38693 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8FD9E28BB311200D38693 /* SnapCarousel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C627E79828BA1545003DD6CC /* AddMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoney.swift; sourceTree = "<group>"; };
+		C627E79A28BA374B003DD6CC /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		C638699828BB8C2E0087C251 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		C696075D28AF952200B9DE4B /* SoudEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoudEffect.swift; sourceTree = "<group>"; };
+		C696076128AF970700B9DE4B /* vitory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vitory.mp3; sourceTree = "<group>"; };
+		C696076528AF9DD200B9DE4B /* shuffCardsCheck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shuffCardsCheck.mp3; sourceTree = "<group>"; };
+		C696076728AF9FCE00B9DE4B /* throwCards.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = throwCards.mp3; sourceTree = "<group>"; };
+		C697353F28B8829A0036D533 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C697354128B884010036D533 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		C697354528B8B2D90036D533 /* 87117-coin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "87117-coin.json"; sourceTree = "<group>"; };
+		C69854F328AE169D00E76728 /* ResizeableLotteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeableLotteView.swift; sourceTree = "<group>"; };
+		C699EB3728AE306D00C11BBA /* Party.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Party.json; sourceTree = "<group>"; };
+		C69B0DF728B5245C00FA7BE6 /* MoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyView.swift; sourceTree = "<group>"; };
+		C69BA7F828A6232D006177F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C6A2DD8428A364AF0024E740 /* RuleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleModel.swift; sourceTree = "<group>"; };
+		C6A2DD8628A365080024E740 /* CardsGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsGames.swift; sourceTree = "<group>"; };
+		C6B6523C28A26466005A1B7A /* TienLen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TienLen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B6523F28A26466005A1B7A /* TienLenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TienLenApp.swift; sourceTree = "<group>"; };
+		C6B6524328A26469005A1B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6B6524628A26469005A1B7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6CA111E28B268B80003833B /* Poker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poker.swift; sourceTree = "<group>"; };
+		C6CA112028B268D30003833B /* PokerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerController.swift; sourceTree = "<group>"; };
+		C6E8FD9C28BB232800D38693 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		C6E8FD9E28BB311200D38693 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B6523928A26466005A1B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69854F128AE165900E76728 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C696076928AFA67E00B9DE4B /* SoundEffect */ = {
+			isa = PBXGroup;
+			children = (
+				C638699828BB8C2E0087C251 /* background.mp3 */,
+				C696076728AF9FCE00B9DE4B /* throwCards.mp3 */,
+				C696076528AF9DD200B9DE4B /* shuffCardsCheck.mp3 */,
+				C696076128AF970700B9DE4B /* vitory.mp3 */,
+			);
+			path = SoundEffect;
+			sourceTree = "<group>";
+		};
+		C696076A28AFA69000B9DE4B /* JsonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C697354528B8B2D90036D533 /* 87117-coin.json */,
+				C699EB3728AE306D00C11BBA /* Party.json */,
+			);
+			path = JsonAnimation;
+			sourceTree = "<group>";
+		};
+		C69854F228AE168000E76728 /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				C6E8FD9E28BB311200D38693 /* SnapCarousel.swift */,
+				C69854F328AE169D00E76728 /* ResizeableLotteView.swift */,
+				C69B0DF728B5245C00FA7BE6 /* MoneyView.swift */,
+			);
+			path = AnimationView;
+			sourceTree = "<group>";
+		};
+		C69A9B6F28B759FE00E139DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6CA111E28B268B80003833B /* Poker.swift */,
+				C697353F28B8829A0036D533 /* MainView.swift */,
+				C697354128B884010036D533 /* Components.swift */,
+				C6E8FD9C28BB232800D38693 /* Achievement.swift */,
+				C627E79828BA1545003DD6CC /* AddMoney.swift */,
+				C627E79A28BA374B003DD6CC /* Rules.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6B6523328A26466005A1B7A = {
+			isa = PBXGroup;
+			children = (
+				C6B6523E28A26466005A1B7A /* TienLen */,
+				C6B6523D28A26466005A1B7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B6523D28A26466005A1B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B6523C28A26466005A1B7A /* TienLen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B6523E28A26466005A1B7A /* TienLen */ = {
+			isa = PBXGroup;
+			children = (
+				C69A9B6F28B759FE00E139DB /* View */,
+				C696076A28AFA69000B9DE4B /* JsonAnimation */,
+				C696076928AFA67E00B9DE4B /* SoundEffect */,
+				C69854F228AE168000E76728 /* AnimationView */,
+				C69BA7F828A6232D006177F3 /* Info.plist */,
+				C6B6524E28A26827005A1B7A /* Controller */,
+				C6B6524D28A2681B005A1B7A /* Model */,
+				C6B6523F28A26466005A1B7A /* TienLenApp.swift */,
+				C6B6524328A26469005A1B7A /* Assets.xcassets */,
+				C6B6524528A26469005A1B7A /* Preview Content */,
+			);
+			path = TienLen;
+			sourceTree = "<group>";
+		};
+		C6B6524528A26469005A1B7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C6B6524628A26469005A1B7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C6B6524D28A2681B005A1B7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6A2DD8428A364AF0024E740 /* RuleModel.swift */,
+				C6A2DD8628A365080024E740 /* CardsGames.swift */,
+				C696075D28AF952200B9DE4B /* SoudEffect.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6B6524E28A26827005A1B7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C6CA112028B268D30003833B /* PokerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B6523B28A26466005A1B7A /* TienLen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B6524A28A26469005A1B7A /* Build configuration list for PBXNativeTarget "TienLen" */;
+			buildPhases = (
+				C6B6523828A26466005A1B7A /* Sources */,
+				C6B6523928A26466005A1B7A /* Frameworks */,
+				C6B6523A28A26466005A1B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TienLen;
+			packageProductDependencies = (
+				C69854F028AE165900E76728 /* Lottie */,
+			);
+			productName = TienLen;
+			productReference = C6B6523C28A26466005A1B7A /* TienLen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B6523428A26466005A1B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C6B6523B28A26466005A1B7A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C6B6523728A26466005A1B7A /* Build configuration list for PBXProject "TienLen" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6B6523328A26466005A1B7A;
+			packageReferences = (
+				C69854EF28AE165900E76728 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = C6B6523D28A26466005A1B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B6523B28A26466005A1B7A /* TienLen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B6523A28A26466005A1B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C696076628AF9DD200B9DE4B /* shuffCardsCheck.mp3 in Resources */,
+				C6B6524728A26469005A1B7A /* Preview Assets.xcassets in Resources */,
+				C697354628B8B2D90036D533 /* 87117-coin.json in Resources */,
+				C696076228AF970700B9DE4B /* vitory.mp3 in Resources */,
+				C638699928BB8C2E0087C251 /* background.mp3 in Resources */,
+				C6B6524428A26469005A1B7A /* Assets.xcassets in Resources */,
+				C699EB3828AE306D00C11BBA /* Party.json in Resources */,
+				C696076828AF9FCF00B9DE4B /* throwCards.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B6523828A26466005A1B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B6524028A26466005A1B7A /* TienLenApp.swift in Sources */,
+				C6E8FD9F28BB311200D38693 /* SnapCarousel.swift in Sources */,
+				C627E79928BA1545003DD6CC /* AddMoney.swift in Sources */,
+				C697354228B884010036D533 /* Components.swift in Sources */,
+				C696075E28AF952200B9DE4B /* SoudEffect.swift in Sources */,
+				C697354028B8829A0036D533 /* MainView.swift in Sources */,
+				C627E79B28BA374B003DD6CC /* Rules.swift in Sources */,
+				C6CA111F28B268B80003833B /* Poker.swift in Sources */,
+				C6E8FD9D28BB232800D38693 /* Achievement.swift in Sources */,
+				C6CA112128B268D30003833B /* PokerController.swift in Sources */,
+				C69854F428AE169D00E76728 /* ResizeableLotteView.swift in Sources */,
+				C69B0DF828B5245C00FA7BE6 /* MoneyView.swift in Sources */,
+				C6A2DD8528A364B00024E740 /* RuleModel.swift in Sources */,
+				C6A2DD8728A365080024E740 /* CardsGames.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C6B6524828A26469005A1B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6B6524928A26469005A1B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B6524B28A26469005A1B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TienLen/Preview Content\"";
+				DEVELOPMENT_TEAM = QMXJ28BTPR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TienLen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmit.entertaiment.TienLen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C6B6524C28A26469005A1B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TienLen/Preview Content\"";
+				DEVELOPMENT_TEAM = QMXJ28BTPR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TienLen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmit.entertaiment.TienLen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B6523728A26466005A1B7A /* Build configuration list for PBXProject "TienLen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B6524828A26469005A1B7A /* Debug */,
+				C6B6524928A26469005A1B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B6524A28A26469005A1B7A /* Build configuration list for PBXNativeTarget "TienLen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B6524B28A26469005A1B7A /* Debug */,
+				C6B6524C28A26469005A1B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C69854EF28AE165900E76728 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C69854F028AE165900E76728 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C69854EF28AE165900E76728 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C6B6523428A26466005A1B7A /* Project object */;
+}

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "alexander-jawfox-Q_-FilZ5rPM-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "alexander-jawfox-Q_-FilZ5rPM-unsplash@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "alexander-jawfox-Q_-FilZ5rPM-unsplash@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
